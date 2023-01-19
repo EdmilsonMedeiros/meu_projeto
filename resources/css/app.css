@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+.container-body{
+    padding: 1em;
+    margin-top: 10em;
+}
+.text-bold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.container-principal{
+    padding: 1em;
+    color: #ffffff;
+    background-color: #000000;
+    /* border-radius: 1em; */
+    opacity: 0.89;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 1em;
+    border: 1px solid #FFFFFF;
+    /* font-family: 'Josefin Slab', serif; */
+}
+.container-principal p{
+    font-size: large;
+}
+.gradient-custom{
+    /* fallback for old browsers */
+    background: #fccb90;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+}
+.home-principal .card{
+    justify-content: center;
+    margin-bottom: 1px;
+    color: #FFFFFF;
+    float: inline-start;
+}
+.inputs{
+    float: inline-start;
+}
+.form-filter{
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn-card-group{
+    display: flex;
+    margin-right: 1px;
+}
+.circle-lancamento{
+    padding: 1em;
+    border-radius: 1em;
+    width: 1em;
+    float: left;
+    margin-right: 0.3em;
+    box-shadow: 1px 1px #000000;
+}
+.p-categoria{
+    font-weight: bold;
+}
+.container-valores{
+    background-color: #fd7200;
+    margin-bottom: 0.1em;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+}
+.container-valores h3{
+    margin-top: 0.3em;
+    display: inline-block;
+    border-radius: 0.3em;
+    padding: 0.1em;
+}
+.btn-principal{
+    margin-bottom: 0.1em;
+}
+.float-right{
+    float: right;
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
+.calendar .calendar-inline{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    color: #2d6aec;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.calendar .calendar-inline a{
+    text-decoration: none;
+    font-size: larger;
+    padding: 0.1em;
+}
+.calendar .calendar-inline a:hover{
+    background-color: #2d6aec;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+}
+.calendar{
+    border-radius: 0.3em;
+    padding-top: 0.5em;
+    background-color: #f0eded;
+}
+.calendar-container{
+    margin-bottom: 0.2em;
+}
+.card:hover{
+    /* border: 1px solid #333333; */
+    box-shadow: 2px 2px #000000;
+    opacity: 0.97;
+}
